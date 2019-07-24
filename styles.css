@@ -1,4 +1,9 @@
-.tld-container {
+#tld-container {
     height: 100vh;
-    background: #000;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.positionable {
+    position: absolute;
 }

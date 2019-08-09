@@ -1,9 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html, p {
+    margin: 0;
+    padding: 0;
+}
+
 #tld-container {
     height: 100vh;
     background: #fff;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .positionable {
     position: absolute;
+    animation-name: whiteToBlack;
+    animation-duration: 2s;
+    font-size: 16pt;
+}
+
+@keyframes whiteToBlack {
+  0% {color: white;}
+  50% {color: black;}
+  100% {color: white;}
 }
